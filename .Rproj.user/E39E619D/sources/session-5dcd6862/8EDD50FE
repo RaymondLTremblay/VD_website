@@ -1,14 +1,14 @@
 {
-    "id": "67C24280",
+    "id": "8EDD50FE",
     "path": "~/Dropbox/GD_Old_to_Db/GitHub_Google_Drive/GitHub/VD_website/index.qmd",
     "project_path": "index.qmd",
     "type": "quarto_markdown",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1705518574948.0,
+    "created": 1705519218138.0,
     "source_on_save": false,
-    "relative_order": 1,
+    "relative_order": 4,
     "properties": {
         "rmdVisualMode": "true",
         "rmdVisualWrapConfigured": "true",
@@ -16,14 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "2:0"
+        "rmdVisualModeLocation": "2:0",
+        "cursorPosition": "0,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1705518570,
+    "lastKnownWriteTime": 1705517595,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1705518570,
+    "last_content_update": 1705517595,
     "read_only": false,
     "read_only_alternatives": []
 }

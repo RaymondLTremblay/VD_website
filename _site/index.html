@@ -20,69 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -148,7 +85,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html">
- <span class="menu-text">About</span></a>
+ <span class="menu-text">Introdución</span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -161,38 +98,251 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a>
+  <ul class="collapse">
+  <li><a href="#organización-del-curso-de-visualización-de-datos-con-r" id="toc-organización-del-curso-de-visualización-de-datos-con-r" class="nav-link" data-scroll-target="#organización-del-curso-de-visualización-de-datos-con-r">Organización del curso de Visualización de Datos con R</a>
+  <ul class="collapse">
+  <li><a href="#fecha-de-la-ultima-revisión" id="toc-fecha-de-la-ultima-revisión" class="nav-link" data-scroll-target="#fecha-de-la-ultima-revisión">Fecha de la ultima revisión</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#visualización-de-datos" id="toc-visualización-de-datos" class="nav-link" data-scroll-target="#visualización-de-datos">Visualización de Datos</a></li>
+  <li><a href="#tópicos-especial-en-biología-biol-4026" id="toc-tópicos-especial-en-biología-biol-4026" class="nav-link" data-scroll-target="#tópicos-especial-en-biología-biol-4026">Tópicos especial en biología: BIOL 4026</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">***</a></li>
+  <li><a href="#instructor-raymond-l.-tremblay-phd" id="toc-instructor-raymond-l.-tremblay-phd" class="nav-link" data-scroll-target="#instructor-raymond-l.-tremblay-phd">Instructor: Raymond L. Tremblay, PhD</a>
+  <ul class="collapse">
+  <li><a href="#horario-de-clase" id="toc-horario-de-clase" class="nav-link" data-scroll-target="#horario-de-clase">Horario de clase</a></li>
+  <li><a href="#hora-de-consulta-con-estudiantes" id="toc-hora-de-consulta-con-estudiantes" class="nav-link" data-scroll-target="#hora-de-consulta-con-estudiantes">Hora de consulta con Estudiantes:</a></li>
+  <li><a href="#libro-obligatorio." id="toc-libro-obligatorio." class="nav-link" data-scroll-target="#libro-obligatorio.">Libro obligatorio.</a>
+  <ul class="collapse">
+  <li><a href="#programados--r--free-statistical-programming-language" id="toc-programados--r--free-statistical-programming-language" class="nav-link" data-scroll-target="#programados--r--free-statistical-programming-language">Programados- R- free statistical programming language</a></li>
+  <li><a href="#prerequisitos" id="toc-prerequisitos" class="nav-link" data-scroll-target="#prerequisitos">Prerequisitos</a></li>
+  <li><a href="#descripción-del-curso-objetivos-generales-de-la-clase" id="toc-descripción-del-curso-objetivos-generales-de-la-clase" class="nav-link" data-scroll-target="#descripción-del-curso-objetivos-generales-de-la-clase">Descripción del curso Objetivos generales de la clase</a></li>
+  <li><a href="#objetivos-del-cursoal-finalizar-el-curso-el-estudiante-podrá" id="toc-objetivos-del-cursoal-finalizar-el-curso-el-estudiante-podrá" class="nav-link" data-scroll-target="#objetivos-del-cursoal-finalizar-el-curso-el-estudiante-podrá">Objetivos del cursoAl finalizar el curso el estudiante podrá:</a></li>
+  <li><a href="#puntuación-este-curso-sera-evaluado-con-los-siguiente-items" id="toc-puntuación-este-curso-sera-evaluado-con-los-siguiente-items" class="nav-link" data-scroll-target="#puntuación-este-curso-sera-evaluado-con-los-siguiente-items">Puntuación: Este curso sera evaluado con los siguiente items:</a></li>
+  <li><a href="#organización-de-las-actividades" id="toc-organización-de-las-actividades" class="nav-link" data-scroll-target="#organización-de-las-actividades">Organización de las actividades</a></li>
+  <li><a href="#conferencias" id="toc-conferencias" class="nav-link" data-scroll-target="#conferencias">Conferencias</a></li>
+  <li><a href="#examenesen-esta-clase-no-hay-exámenes-pero-habrá-pruebas-cortas." id="toc-examenesen-esta-clase-no-hay-exámenes-pero-habrá-pruebas-cortas." class="nav-link" data-scroll-target="#examenesen-esta-clase-no-hay-exámenes-pero-habrá-pruebas-cortas.">Examenes:En esta clase no hay exámenes pero habrá pruebas cortas.</a></li>
+  <li><a href="#ejercicios" id="toc-ejercicios" class="nav-link" data-scroll-target="#ejercicios">Ejercicios:</a></li>
+  <li><a href="#faltar-a-clase-y-examen" id="toc-faltar-a-clase-y-examen" class="nav-link" data-scroll-target="#faltar-a-clase-y-examen">Faltar a clase y examen:</a></li>
+  <li><a href="#derechos-de-estudiantes-con-impedimentos" id="toc-derechos-de-estudiantes-con-impedimentos" class="nav-link" data-scroll-target="#derechos-de-estudiantes-con-impedimentos">Derechos de Estudiantes con Impedimentos:</a></li>
+  <li><a href="#integridad-académicala" id="toc-integridad-académicala" class="nav-link" data-scroll-target="#integridad-académicala">Integridad académicaLa:</a></li>
+  <li><a href="#espacio-libre-de-acoso-sexual" id="toc-espacio-libre-de-acoso-sexual" class="nav-link" data-scroll-target="#espacio-libre-de-acoso-sexual">Espacio libre de acoso sexual:</a></li>
+  <li><a href="#protocolo-de-la-clase" id="toc-protocolo-de-la-clase" class="nav-link" data-scroll-target="#protocolo-de-la-clase">Protocolo de la Clase:</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">VD_website</h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<section id="preface" class="level1 unnumbered">
+<h1 class="unnumbered">Preface</h1>
+<section id="organización-del-curso-de-visualización-de-datos-con-r" class="level2">
+<h2 class="anchored" data-anchor-id="organización-del-curso-de-visualización-de-datos-con-r">Organización del curso de Visualización de Datos con R</h2>
+<p>To learn more about Quarto books visit <a href="https://quarto.org/docs/books" class="uri">https://quarto.org/docs/books</a>.</p>
+<p>Try new changes. some changes</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+</div>
+<section id="fecha-de-la-ultima-revisión" class="level3">
+<h3 class="anchored" data-anchor-id="fecha-de-la-ultima-revisión">Fecha de la ultima revisión</h3>
+<div class="cell">
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<pre><code>[1] "2024-01-17"</code></pre>
 </div>
 </div>
+</section>
+</section>
+</section>
+<section id="visualización-de-datos" class="level1">
+<h1>Visualización de Datos</h1>
+</section>
+<section id="tópicos-especial-en-biología-biol-4026" class="level1">
+<h1>Tópicos especial en biología: BIOL 4026</h1>
+</section>
+<section id="section" class="level1">
+<h1>***</h1>
+</section>
+<section id="instructor-raymond-l.-tremblay-phd" class="level1">
+<h1>Instructor: Raymond L. Tremblay, PhD</h1>
+<p><strong>Oficina</strong>: NL 104 <strong>Teléfono</strong>: (787) 850-0000 (dept de biología) <strong>Coreo electrónico</strong>: raymond.tremblay_at_upr_dot_edu</p>
+<hr>
+<section id="horario-de-clase" class="level3">
+<h3 class="anchored" data-anchor-id="horario-de-clase">Horario de clase</h3>
+<p><strong>Presentación de temas y discución</strong>: L y Miercoles de 1:30-2:50pm (80 mins) (NOTE: necesita traer tu laptop!)</p>
+</section>
+<section id="hora-de-consulta-con-estudiantes" class="level2">
+<h2 class="anchored" data-anchor-id="hora-de-consulta-con-estudiantes">Hora de consulta con Estudiantes:</h2>
+<ul>
+<li>Lunes y Miercoles from 10:30 a 12:30pm (NL 104)</li>
+<li>Jueves 9:00 -12:00</li>
+<li>o por MSTeam “Horas de Consulta Tremblay” (Solamente si estamos remoto).</li>
+</ul>
+</section>
+<section id="libro-obligatorio." class="level2">
+<h2 class="anchored" data-anchor-id="libro-obligatorio.">Libro obligatorio.</h2>
+<ul>
+<li><a href="https://r4ds.had.co.nz">Garrett Grolemund, Hadley Wickham. R for Data Science</a> En Ingles.</li>
+<li><a href="https://es.r4ds.hadley.nz">Garrett Grolemund, Hadley Wickham. R para Ciencia de Datos</a> En Español.</li>
+<li><a href="https://www.amazon.com/Gráficas-Versátiles-ggplot2-Análisis-Spanish-ebook/dp/B07P2Q87H2/ref=sr_1_1?dchild=1&amp;keywords=Graficas+versatiles&amp;qid=1591404029&amp;sr=8-1">Tremblay y Hernández-Serrano, 2018</a>.</li>
+</ul>
+<p>• Artículos revisados por pares serán asignados para fomentar el método de utilizar estas herramientas en ciencias.</p>
+<hr>
+<section id="programados--r--free-statistical-programming-language" class="level3">
+<h3 class="anchored" data-anchor-id="programados--r--free-statistical-programming-language">Programados- <a href="https://cran.r-project.org/">R- free statistical programming language</a></h3>
+<ul>
+<li><a href="https://rstudio.com">RStudio</a>- MSExcel, Numbers o Google Sheet</li>
+</ul>
+<hr>
+</section>
+<section id="prerequisitos" class="level3">
+<h3 class="anchored" data-anchor-id="prerequisitos">Prerequisitos</h3>
+<ul>
+<li>BIOL 3011-3013: Biología General y Laboratorio primer semestre</li>
+<li>BIOL 3012-3014: Biología General y Laboratorio segundo semestre</li>
+</ul>
+<hr>
+</section>
+<section id="descripción-del-curso-objetivos-generales-de-la-clase" class="level3">
+<h3 class="anchored" data-anchor-id="descripción-del-curso-objetivos-generales-de-la-clase">Descripción del curso Objetivos generales de la clase</h3>
+<ol type="1">
+<li>Usar adecuadamente el programa R, RStudio para hacer gráficas y estadística básica usando las funciones de Tidyverse.</li>
+<li>Producir gráficos básicos y avanzados con el package ggplot2 y otros paquetes.</li>
+<li>Utilizar el programa RMarkdown para producir sus documentos e informes.</li>
+<li>Preparar gráficos para publicaciones.</li>
+<li>Reconocer las características de gráficos inadecuados.</li>
+</ol>
+<p>Al final del curso el estudiante podrá preparar datos en hojas de MS Excel o otros formato, convertir el archivo para subirlo a R. El estudiante podrá manipular múltiples funciones de Tidyverse y aplicarlos a producir gráficos. El estudiante tendrá un conocimiento suficiente desarrollado para preparar gráficos en una diversidad de alternativas, y preparar esto para publicar o presentaciones.</p>
+<hr>
+</section>
+<section id="objetivos-del-cursoal-finalizar-el-curso-el-estudiante-podrá" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos-del-cursoal-finalizar-el-curso-el-estudiante-podrá">Objetivos del cursoAl finalizar el curso el estudiante podrá:</h3>
+<ol type="1">
+<li><p>Introducción a R, RStudio y la visualización de datos</p></li>
+<li><p>El ambiente R</p></li>
+<li><p>El ambiente de RStudio a. Su estructura visual y opciones</p></li>
+<li><p>Subir datos a RStudio</p></li>
+<li><p>Los “Packages” para el exceso a funciones</p></li>
+<li><p>Producir un Data Frame</p></li>
+<li><p>Preparar datos en una hoja de Excel para utilizar en R</p></li>
+<li><p>Las funciones de Tidyverse</p>
+<ul>
+<li>dplyr</li>
+<li>forcats</li>
+<li>lubridate</li>
+<li>pipes</li>
+<li>tibble</li>
+<li>purrr</li>
+<li>ggplot2</li>
+</ul></li>
+<li><p>Gráficos para conteos</p></li>
+<li><p>Gráficos de una variable continua o discreta</p></li>
+<li><p>Introducción a facet_wrap y facet_grid</p></li>
+<li><p>Gráficos con dos variables continuas</p></li>
+<li><p>Gráficos de líneas, geom_line</p></li>
+<li><p>Añadir una cinta alrededor de una variable continua, geom_ribbon</p></li>
+<li><p>Gráficos de líneas con categorías en el eje de x</p></li>
+<li><p>Líneas con error estándar</p></li>
+<li><p>Gráficos estadísticos</p></li>
+<li><p>Diagrama de alfombra</p></li>
+<li><p>Modelos estadísticos</p></li>
+<li><p>Gráficos de densidad</p></li>
+<li><p>Método Likert</p></li>
+<li><p>Técnicas para evaluar los supuestos subyacentes de las pruebas estadísticas</p></li>
+<li><p>Como definir su propia paleta de color</p></li>
+<li><p>Preparar los gráficos para publicaciones</p></li>
+</ol>
+<hr>
+</section>
+<section id="puntuación-este-curso-sera-evaluado-con-los-siguiente-items" class="level3">
+<h3 class="anchored" data-anchor-id="puntuación-este-curso-sera-evaluado-con-los-siguiente-items">Puntuación: Este curso sera evaluado con los siguiente items:</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Item</th>
+<th style="text-align: right;">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Actividades en clase, pruebas cortas (± 4)</td>
+<td style="text-align: right;">50 pts</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Asignaciones (± 8)</td>
+<td style="text-align: right;">100pts</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Trabajo final de presentació</td>
+<td style="text-align: right;">40pts</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Asistencia a clase</td>
+<td style="text-align: right;">10pts</td>
+</tr>
+</tbody>
+</table>
+<p>NOTE: Escala de Notas:</p>
+<ul>
+<li>A (100 to 90)</li>
+<li>B (89 to 80)</li>
+<li>C (79 to 70)</li>
+<li>D (69 to 60)</li>
+<li>F (&lt; 60)</li>
+</ul>
+</section>
+<section id="organización-de-las-actividades" class="level3">
+<h3 class="anchored" data-anchor-id="organización-de-las-actividades">Organización de las actividades</h3>
+<p>Las actividades: pruebas cortas, asignaciones y otro estarán ofrecido atreves del programa MSTeam (el app es gratis, y se puede usar desde su tablet o teléfono inteligente o computadora). Tendrá que registrase con un código que le estaré enviando. Todos los trabajos se usarán la plataforma R, RStudio (ambos gratis). El estudiante necesita una computadora portátil con 8GB de memoria mínima (las tabletas no son aceptable), tanto para Windows y Mac.El trabajo de investigación: El estudiante utilizará datos de una revista y replicará los gráficos de con las herramientas aprendidas.</p>
+</section>
+<section id="conferencias" class="level3">
+<h3 class="anchored" data-anchor-id="conferencias">Conferencias</h3>
+<p>En la clase las notas serán basado primeramente en la participación y algunas pruebas cortas. Su participación es esencial para el aprendizaje (y para un ambiente positivo). Aprender <em>NO</em> es un proceso pasivo: los estudiantes deben participar haciendo preguntas y discutir el material con su conocimiento anterior (Su bagaje de conocimiento).</p>
+</section>
+<section id="examenesen-esta-clase-no-hay-exámenes-pero-habrá-pruebas-cortas." class="level3">
+<h3 class="anchored" data-anchor-id="examenesen-esta-clase-no-hay-exámenes-pero-habrá-pruebas-cortas.">Examenes:En esta clase no hay exámenes pero habrá pruebas cortas.</h3>
+<p><span style="color: red;">Es obligatorio tener la camera prendida durante <strong>la prueba corta</strong>. No es permitido usar el celular, Ud. tendrá que demostrar que el celular este detrás de uds antes de comenzar el examen</span></p>
+</section>
+<section id="ejercicios" class="level3">
+<h3 class="anchored" data-anchor-id="ejercicios">Ejercicios:</h3>
+<p>Los ejercicios están enfocado en la aplicación de conceptos y métodos discutido en la clase y solución de problemas. Se hará un esfuerza de usar datos reales para demostrar como trabajar con los análisis, tablas, y gráficos en R, RStudio y RMarkdown. Típicamente, tendrán solamente una semana para hacer los ejercicios y entregarlos en formato .html.</p>
+</section>
+<section id="faltar-a-clase-y-examen" class="level3">
+<h3 class="anchored" data-anchor-id="faltar-a-clase-y-examen">Faltar a clase y examen:</h3>
+<p><em>Los trabajos cortos y pruebas cortas NO se reponen</em>. Si falta a la clase es su responsabilidad hablar con los otros estudiantes para saber lo que se discutió en la clase. Los examen se reponen solamente por una escusa valida.</p>
+</section>
+<section id="derechos-de-estudiantes-con-impedimentos" class="level3">
+<h3 class="anchored" data-anchor-id="derechos-de-estudiantes-con-impedimentos">Derechos de Estudiantes con Impedimentos:</h3>
+<p>La UPR-Humacao cumple con las leyes ADA (Americans with Disabilities Act) y51 (Servicios Educativos Integrales para Personas con Impedimentos) para garantizarigualdad en el acceso a la educación y servicios. Estudiantes con impedimentos: informe al (la) profesor(a) de cada curso sobre sus necesidades especiales y/o de acomodo razonable para el curso, en la tarjeta de información de la primera semana y visite la Oficina de Servicios para la Población con Impedimentos (SERPI) a la brevedad posible. Se mantendrá la confidencialidad.</p>
+<hr>
+</section>
+<section id="integridad-académicala" class="level3">
+<h3 class="anchored" data-anchor-id="integridad-académicala">Integridad académicaLa:</h3>
+<p>Universidad de Puerto Rico promueve los más altos estándares de integridadacadémica y científica. El Artículo 6.2 del Reglamento General de Estudiantes de laUniversidad de Puerto Rico (Certificación Núm. 13, 2009-2010, de la Junta de Síndicos)establece que <span style="color: red;">la deshonestidad académica incluye, pero no se limita a: accionesfraudulentas, la obtención de notas o grados académicos valiéndose de falsas ofraudulentas simulaciones, copiar total o parcialmente la labor académica de otra persona,plagiar total o parcialmente el trabajo de otra persona, copiar total o parcialmente lasrespuestas de otra persona a las preguntas de un examen, haciendo o consiguiendo queotro tome en su nombre cualquier prueba o examen oral o escrito, así como la ayuda ofacilitación para que otra persona incurra en la referida conducta</span>. Cualquiera de estasacciones estará sujeta a sanciones disciplinarias en conformidad con el procedimientodisciplinario establecido en el Reglamento General de Estudiantes de la UPR vigente.</p>
+<hr>
+<p>Comentario sobre grabar videos y/o audio de las clasesLos estudiantes no PUEDEN grabar la clase por forma de video o audio sin el permiso del profesor. Algunos estudiantes con necesidades especiales pueden hablar con el profesor para pedir el permiso. La solicitud y aprobación del permiso tiene que ser por escrito (por ejemplo por email).</p>
+<hr>
+</section>
+<section id="espacio-libre-de-acoso-sexual" class="level3">
+<h3 class="anchored" data-anchor-id="espacio-libre-de-acoso-sexual">Espacio libre de acoso sexual:</h3>
+<p>La Universidad de Puerto Rico prohíbe el descrimen por razón de sexo y género en todas sus modalidades, incluyendo el hostigamiento sexual. Según la Política Institucional contra el hostigamiento sexual, en la Universidad de Puerto Rico, Cert. Núm. 130 (2014-2015) de la Junta de Gobierno, si un(a) estudiante está siendo o fue afectado por conductas relacionadas a hostigamiento sexual, puede acudir ante la Oficina del Procurador Estudiantil, el Decanato de Estudiantes o el Coordinador de Cumplimiento con Título IX para una orientación o presentar una querella.</p>
+<hr>
+</section>
+<section id="protocolo-de-la-clase" class="level3">
+<h3 class="anchored" data-anchor-id="protocolo-de-la-clase">Protocolo de la Clase:</h3>
+<p>Los teléfonos mobiles serán apagado durante la clase. Si necesita una calculadora traerla al salón. El teléfono no debería esta visible durante la clase al menos que pide permiso al instructor. Recuerda que que se usara computadoras portátiles en cada sesión.</p>
 
 
+</section>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
