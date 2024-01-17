@@ -3,7 +3,7 @@
     "path": "~/Dropbox/GD_Old_to_Db/GitHub_Google_Drive/GitHub/VD_website/_quarto.yml",
     "project_path": "_quarto.yml",
     "type": "yaml",
-    "hash": "0",
+    "hash": "1125337732",
     "contents": "",
     "dirty": false,
     "created": 1705518575947.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "11,7",
+        "cursorPosition": "18,0",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1705518570,
+    "lastKnownWriteTime": 1705520938,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1705518570,
+    "last_content_update": 1705520938446,
     "read_only": false,
     "read_only_alternatives": []
 }
